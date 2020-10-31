@@ -1,0 +1,158 @@
+.banner-postpage-container {
+  background-color: blanchedalmond;
+  width: 880px;
+  height: auto;
+}
+.container-x {
+  justify-content: center;
+  margin: 60px 0px 40px 0px;
+}
+.container-x img {
+  width: 100%;
+  height: auto;
+}
+.row-1 {
+  display: flex;
+
+  width: 80%;
+  margin: auto;
+}
+.left-col {
+  flex: 2 1;
+  flex-wrap: wrap;
+  margin-right: 14px;
+}
+.right-col {
+  flex-wrap: wrap;
+  flex: 1 1;
+}
+.a1 {
+  height: 200px;
+  background-color: antiquewhite;
+  height: 480px;
+  background-color: black;
+  display: flex;
+  margin-bottom: 10px;
+}
+.a1 img {
+  height: 100%;
+  width: auto;
+  margin: auto;
+}
+.myborder {
+  box-shadow: 0 0 2px 0px #000000eb;
+  border: 1px solid rgba(0, 47, 52, 0.2);
+}
+.b1 {
+  /* background-color: #f9f9f9; */
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.detail-div {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid rgb(0 47 52 / 38%);
+}
+.description-div .phead {
+  margin: 15px 0px 10px 0px;
+}
+.description-div {
+  width: 90%;
+  margin: 0 auto;
+}
+.a2 {
+  display: flex;
+  flex-direction: column;
+}
+.a2 .price-box {
+  margin-left: 20px;
+}
+.rs-head-p {
+  margin: 0;
+  margin-top: 15px;
+}
+.descript-text {
+  padding-right: 15%;
+}
+.rs-head-p2 {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+.a2 .price-box p span {
+  padding-right: 10px;
+}
+span.rightone {
+  position: relative;
+  right: -50%;
+}
+.userDetails {
+  margin-left: 20px;
+}
+.img-cell {
+  margin: 15px 20px 10px 0px;
+}
+.b2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .modal2 {
+  font-size: 12px;
+}
+.header2 {
+  width: 50%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  padding: 10px 5px;
+  background-color: #ddd;
+}
+.content2 {
+  width: 50%;
+
+  padding: 10px 5px;
+  background-color: #f8f8f8;
+}
+.content-box {
+  width: 100%;
+}
+.actions2 {
+  width: 50%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+  background-color: #dadadab5;
+}
+.close2 {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 23.36%;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.popip-content {
+  background-color: #f8f8f8;
+}
+
+.header2,
+.actions2,
+.content2 {
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+.popup-overlay {
+  background-color: #00000087;
+} */

@@ -1,0 +1,73 @@
+.dropdown-container {
+  position: absolute;
+
+  right: 12%;
+}
+
+.dropdown-container .drop-btn {
+  width: 35px;
+  /* background-color: #242526; */
+  color: #242526;
+  line-height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.dropdown-container .drop-btn .fright {
+  float: right;
+  line-height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dropdown-container .wrapper {
+  font-size: 8px !important;
+
+  position: absolute;
+  top: 52px;
+  right: 0px;
+  display: flex;
+  width: 200px;
+  background-color: #242526;
+  border-radius: 5px;
+  display: none;
+}
+.show {
+  display: block !important;
+}
+
+.dropdown-container .wrapper ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.dropdown-container .wrapper ul li a {
+  text-decoration: none;
+  color: #b0b3b8;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500px;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 8px;
+}
+.dropdown-container .wrapper ul li:hover a {
+  background-color: #3a3b3c;
+}
+.wrapper ul li a .icon {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff1a;
+  margin-right: ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+}
+.wrapper ul li a .icon span {
+  transform: rotateY(180deg);
+}

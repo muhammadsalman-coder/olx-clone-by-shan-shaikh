@@ -1,0 +1,108 @@
+.post-nav {
+  height: 68px;
+  background: #f7f8f8;
+  box-shadow: 0px 0.5px 6px 1px #ccc;
+  display: flex;
+}
+.post-nav .nav-content {
+  align-items: center;
+}
+.post-nav .nav-content .icon-back {
+  margin: 0 40px;
+}
+.post-nav .nav-content img {
+  height: 30px;
+}
+
+.post-body h2 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+.post-container {
+  max-width: 842px;
+  min-width: 622px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.post-container,
+.list-containee,
+li {
+  border: 1px solid rgba(0, 47, 52, 0.2);
+}
+.list-container ul li:hover {
+  background-color: rgba(0, 47, 52, 0.2);
+}
+.heading {
+  padding: 24px 30px 16px;
+}
+.post-container ul li {
+  list-style: none;
+  list-style-position: inside;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 2;
+  flex-wrap: wrap;
+}
+.post-container ul li {
+}
+.list-container ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+.list-container ul li .icons {
+  color: rgba(0, 47, 52, 0.6);
+}
+.list-container ul li span {
+  justify-content: flex-end;
+}
+.icno-div {
+  width: 10%;
+}
+
+.post-Footer {
+  padding: 10px 3%;
+  background: #002f34;
+}
+.post-Footer h2 {
+  flex: 1;
+}
+.post-Footer h2.r {
+  text-align: right;
+}
+
+.page-container {
+  flex-direction: column;
+}
+.page-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between;
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 840px !important;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+table,
+td,
+th {
+  border: 1px solid rgba(0, 47, 52, 0.2);
+  width: 240px;
+  height: 48px;
+}
+.table-col-2 {
+  width: 100px;
+}
+.icons{
+
+} */
